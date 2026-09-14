@@ -119,7 +119,7 @@
     "sc_targets": []
   },
   "hackerone:gogo_vdp": {
-    "hash": "264cc67e6983b26699134fd94c580628de319765",
+    "hash": "5c70709087348bcec6ba0ca34dd500b6569b5d9d",
     "bounty": false,
     "source": false,
     "name": "Gogo VDP",
@@ -2853,7 +2853,7 @@
     "sc_targets": []
   },
   "hackerone:aig": {
-    "hash": "3dfb87bc84b5f95b36607f56a7089c5bf0e6f0ee",
+    "hash": "8cda1fc6f4a28b34f913023e3ed742525c04f0de",
     "bounty": false,
     "source": false,
     "name": "AIG",
@@ -3635,7 +3635,7 @@
     "sc_targets": []
   },
   "hackerone:fanduel": {
-    "hash": "92269393d71ed490e25cf22470b6f06f408ce84e",
+    "hash": "2bb1866156507cd7d32f93ff0eaffbb3fbc50dd2",
     "bounty": true,
     "source": false,
     "name": "FanDuel",
@@ -8876,6 +8876,15 @@
     "platform": "intigriti",
     "sc_targets": []
   },
+  "intigriti:pdqcomprivate": {
+    "hash": "ff726184513622dad5ec5f3b67e1782bd1c3ab4c",
+    "bounty": true,
+    "source": false,
+    "name": "PDQ bug bounty program",
+    "url": "https://www.intigriti.com/programs/pdq/pdqcomprivate/detail",
+    "platform": "intigriti",
+    "sc_targets": []
+  },
   "intigriti:peoplecert": {
     "hash": "0bca246737fd13bc2f4922387d5f585595073010",
     "bounty": false,
@@ -9198,7 +9207,7 @@
     "sc_targets": []
   },
   "intigriti:truelayervdp": {
-    "hash": "4cca4579adc064036a590ffee550b352018a4714",
+    "hash": "0dd57851768466e2f9768a4a47597f6bad44438d",
     "bounty": false,
     "source": false,
     "name": "TrueLayer VDP",
@@ -14169,8 +14178,8 @@
   },
   "_meta": {
     "schema": 3,
-    "updated_at": "2026-09-14T13:55:20.221550+00:00",
-    "total": 1342,
+    "updated_at": "2026-09-14T19:13:08.508674+00:00",
+    "total": 1343,
     "qualifying": 74,
     "external": 384
   }
