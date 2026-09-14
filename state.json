@@ -929,7 +929,7 @@
     "sc_targets": []
   },
   "hackerone:circle-bbp": {
-    "hash": "1d24396b01b73c0b914943c31a4c74057dc212d7",
+    "hash": "83e3ff679c345f260bf23754ba3c43bf0d34ee60",
     "bounty": true,
     "source": true,
     "name": "Circle BBP",
@@ -944,16 +944,6 @@
       {
         "asset_type": "SOURCE_CODE",
         "identifier": "https://github.com/circlefin/aptos-cctp",
-        "description": ""
-      },
-      {
-        "asset_type": "SOURCE_CODE",
-        "identifier": "https://github.com/circlefin/arc-node",
-        "description": ""
-      },
-      {
-        "asset_type": "SOURCE_CODE",
-        "identifier": "https://github.com/circlefin/arc-remote-signer",
         "description": ""
       },
       {
@@ -982,9 +972,19 @@
         "description": ""
       },
       {
-        "asset_type": "SOURCE_CODE",
-        "identifier": "https://github.com/circlefin/malachite",
-        "description": "only part of this repo is in scope for our program:\n\n- out of scope: Everything that is not in code/crates and also code/crates/starknet and code/crates/test\n\n- in scope:\u00a0 code/crates (minus starknet and test folders)"
+        "asset_type": "SMART_CONTRACT",
+        "identifier": "https://github.com/circlefin/noble-fiattokenfactory",
+        "description": ""
+      },
+      {
+        "asset_type": "SMART_CONTRACT",
+        "identifier": "https://github.com/circlefin/solana-cctp-contracts",
+        "description": ""
+      },
+      {
+        "asset_type": "SMART_CONTRACT",
+        "identifier": "https://github.com/circlefin/solana-gateway-contracts",
+        "description": ""
       }
     ]
   },
@@ -5040,7 +5040,7 @@
     "sc_targets": []
   },
   "hackerone:ui": {
-    "hash": "7934ce5367c9c5d855cfe6996b3ab9669e4d9fed",
+    "hash": "86542a8b0ce832e006ec26cc42411f1ebbccd93f",
     "bounty": true,
     "source": false,
     "name": "Ubiquiti Inc.",
@@ -7698,7 +7698,7 @@
     "sc_targets": []
   },
   "bugcrowd:T-Mobile": {
-    "hash": "277c6cff35e164f00b97e1655a9820bc9cf4a548",
+    "hash": "0815a584449f7cf5f0af204563c75f1c284e2c26",
     "bounty": true,
     "source": false,
     "name": "T-Mobile",
@@ -14178,7 +14178,7 @@
   },
   "_meta": {
     "schema": 3,
-    "updated_at": "2026-09-14T19:13:08.508674+00:00",
+    "updated_at": "2026-09-14T22:41:34.560286+00:00",
     "total": 1343,
     "qualifying": 74,
     "external": 384
