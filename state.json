@@ -311,15 +311,6 @@
     "platform": "hackerone",
     "sc_targets": []
   },
-  "hackerone:vueling_vdp": {
-    "hash": "274282fb7d159a0a868bc60a4c5fb00674dd46ab",
-    "bounty": false,
-    "source": false,
-    "name": "Vueling",
-    "url": "https://hackerone.com/vueling_vdp",
-    "platform": "hackerone",
-    "sc_targets": []
-  },
   "hackerone:robinhood_markets": {
     "hash": "3eb4dbca40b0a3a5f455d34cfbd0b229d2f41dd0",
     "bounty": false,
@@ -1584,7 +1575,7 @@
     ]
   },
   "hackerone:superbet": {
-    "hash": "ba4309f2e68416bd92dd86668104cc942d8fc8a3",
+    "hash": "2a2725988a19949c34216da65e14a1f41d33c56e",
     "bounty": true,
     "source": false,
     "name": "Superbet",
@@ -2257,7 +2248,7 @@
     "sc_targets": []
   },
   "hackerone:mondelez": {
-    "hash": "55376fb97e9397df99074a2d638066df6adeaf48",
+    "hash": "4374ab0a1252f014f321424b1349fb6204380922",
     "bounty": false,
     "source": false,
     "name": "Mondel\u0113z International",
@@ -3662,7 +3653,7 @@
     "sc_targets": []
   },
   "hackerone:mercadolibre": {
-    "hash": "20e6736b43fa969084b8884f91baa8eb685900f6",
+    "hash": "6bdef406a1dcb7c045a86893972634c5bf0985be",
     "bounty": true,
     "source": false,
     "name": "MercadoLibre",
@@ -4483,6 +4474,21 @@
     "url": "https://hackerone.com/quora",
     "platform": "hackerone",
     "sc_targets": []
+  },
+  "hackerone:brave": {
+    "hash": "a2f354a6ca0291c4ce7e9e674bab11bc723f80a1",
+    "bounty": true,
+    "source": true,
+    "name": "Brave Software",
+    "url": "https://hackerone.com/brave",
+    "platform": "hackerone",
+    "sc_targets": [
+      {
+        "asset_type": "SOURCE_CODE",
+        "identifier": "https://github.com/brave/*, https://github.com/brave-intl/*",
+        "description": "In general we're interested in vulnerabilities in all GitHub repos under brave/ and brave-intl/, barring explicit exclusions. Also exclude forks and archived repos."
+      }
+    ]
   },
   "hackerone:portswigger": {
     "hash": "ffd730d23f16e9778cfe6a11fcb8eabb893106f6",
@@ -5720,7 +5726,7 @@
     "sc_targets": []
   },
   "bugcrowd:Bolt Technology O\u00dc": {
-    "hash": "649a9922095264da8e24ff5d5dd5815d030f6a0c",
+    "hash": "2fbfa694d60f3c3d93415cc053eddc815dddec0b",
     "bounty": true,
     "source": false,
     "name": "Bolt Technology O\u00dc",
@@ -8045,6 +8051,15 @@
     "platform": "bugcrowd",
     "sc_targets": []
   },
+  "intigriti:adacvulnerabilitydisclosureprogram": {
+    "hash": "026497328c645cf9951a549e20e111a44133ca56",
+    "bounty": false,
+    "source": false,
+    "name": "ADAC Vulnerability Disclosure Program",
+    "url": "https://www.intigriti.com/programs/adac/adacvulnerabilitydisclosureprogram/detail",
+    "platform": "intigriti",
+    "sc_targets": []
+  },
   "intigriti:adobepublic": {
     "hash": "021c77f92a04ca34739d1d96eac22544594c6c0f",
     "bounty": true,
@@ -8458,7 +8473,7 @@
     "sc_targets": []
   },
   "intigriti:excoscalebugbounty": {
-    "hash": "cd51ef5e1d7e2367e9d6a596478b311741ead357",
+    "hash": "3ae1effdd5cc9d1fd88b449698fab81db22bd6e2",
     "bounty": true,
     "source": false,
     "name": "Exoscale Bug Bounty",
@@ -8822,6 +8837,15 @@
     "source": false,
     "name": "Nexuzhealth Web PACS",
     "url": "https://www.intigriti.com/programs/uz%20leuven/nexuzhealthwebpacs/detail",
+    "platform": "intigriti",
+    "sc_targets": []
+  },
+  "intigriti:ninjakiwigames": {
+    "hash": "c3b8e9d5abc944a0125440f2819214af983fddf6",
+    "bounty": true,
+    "source": false,
+    "name": "Ninja Kiwi Games Bug Bounty program",
+    "url": "https://www.intigriti.com/programs/ninjakiwigames/ninjakiwigames/detail",
     "platform": "intigriti",
     "sc_targets": []
   },
@@ -9838,6 +9862,15 @@
     "platform": "yeswehack",
     "sc_targets": []
   },
+  "yeswehack:superbank---public-bug-bounty-program": {
+    "hash": "311ba4db6e79c7002dd1418a3f98aa4c73901302",
+    "bounty": false,
+    "source": false,
+    "name": "Superbank - Public Bug Bounty Program",
+    "url": "https://yeswehack.com/programs/superbank---public-bug-bounty-program",
+    "platform": "yeswehack",
+    "sc_targets": []
+  },
   "yeswehack:swapcard": {
     "hash": "c004cb694081f0d1f9be0fa1709d0ae1cd36a657",
     "bounty": true,
@@ -10762,16 +10795,6 @@
     "url": "https://bugbase.in/programs/bugbase",
     "platform": "chaos",
     "origin": "direct",
-    "sc_targets": []
-  },
-  "chaos:brave-software": {
-    "hash": "",
-    "bounty": true,
-    "source": false,
-    "name": "Brave Software",
-    "url": "https://hackerone.com/brave",
-    "platform": "chaos",
-    "origin": "hackerone",
     "sc_targets": []
   },
   "chaos:bullish": {
@@ -14146,9 +14169,9 @@
   },
   "_meta": {
     "schema": 3,
-    "updated_at": "2026-09-14T06:59:42.739349+00:00",
-    "total": 1340,
-    "qualifying": 73,
-    "external": 385
+    "updated_at": "2026-09-14T13:55:20.221550+00:00",
+    "total": 1342,
+    "qualifying": 74,
+    "external": 384
   }
 }
