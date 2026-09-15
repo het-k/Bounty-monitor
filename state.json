@@ -10102,15 +10102,6 @@
     "platform": "federacy",
     "sc_targets": []
   },
-  "federacy:Federacy": {
-    "hash": "034eaaf5325d8dd2521f520f35735dabb09a4256",
-    "bounty": true,
-    "source": false,
-    "name": "Federacy",
-    "url": "https://www.federacy.com/federacy",
-    "platform": "federacy",
-    "sc_targets": []
-  },
   "federacy:Level365": {
     "hash": "daa515a4763d3a1fb117a76477b0985cf5b50e5e",
     "bounty": false,
@@ -14168,8 +14159,8 @@
   },
   "_meta": {
     "schema": 3,
-    "updated_at": "2026-09-15T01:20:05.990020+00:00",
-    "total": 1342,
+    "updated_at": "2026-09-15T06:36:35.571844+00:00",
+    "total": 1341,
     "qualifying": 74,
     "external": 383
   }
