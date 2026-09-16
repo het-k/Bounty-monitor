@@ -1,4 +1,13 @@
 {
+  "hackerone:common_codes": {
+    "hash": "97d170e1550eee4afc0af065b78cda302a97674c",
+    "bounty": true,
+    "source": false,
+    "name": "d-you App & German EUDI Wallet Ecosystem",
+    "url": "https://hackerone.com/common_codes",
+    "platform": "hackerone",
+    "sc_targets": []
+  },
   "hackerone:assa_abloy_americas": {
     "hash": "d2c617a2065df3627e347c9d599fddefecc931dd",
     "bounty": false,
@@ -1021,6 +1030,15 @@
     "source": false,
     "name": "ION Group",
     "url": "https://hackerone.com/ion",
+    "platform": "hackerone",
+    "sc_targets": []
+  },
+  "hackerone:klarna": {
+    "hash": "8ca516075363c219ff11cd9266b5dc6a8142759c",
+    "bounty": true,
+    "source": false,
+    "name": "Klarna",
+    "url": "https://hackerone.com/klarna",
     "platform": "hackerone",
     "sc_targets": []
   },
@@ -3887,6 +3905,36 @@
     "url": "https://hackerone.com/paypal",
     "platform": "hackerone",
     "sc_targets": []
+  },
+  "hackerone:mariadb": {
+    "hash": "96e1133f4a96fe28d1ffba5ffe691f52680972c4",
+    "bounty": false,
+    "source": true,
+    "name": "MariaDB",
+    "url": "https://hackerone.com/mariadb",
+    "platform": "hackerone",
+    "sc_targets": [
+      {
+        "asset_type": "SOURCE_CODE",
+        "identifier": "MariaDB Server & Connectors  - Denial of Service",
+        "description": "Any program errors that attackers can use to crash the server immediately and/or corrupt its internal state and configuration permanently, preventing the user from easily resuming the service, resulting in near, or total loss of availability are commonly know as Denial of Service (DoS) attacks. In addition to the vulnerabilities listed in the RCE scope, the ones that don't lead to a code execution scenario, but do crash the server or lead to program state corruption at run-time, further examples include:\n\n* NULL pointer dereferences\n* Concurrency issues leading to dead-locks, buffer underruns and race conditions\n* Resource and memory leaks leading to a DoS condition in a short period of time\n\nOur source code is on [GitHub](https://github.com/MariaDB)."
+      },
+      {
+        "asset_type": "SOURCE_CODE",
+        "identifier": "MariaDB Server & Connectors - Access control bypass",
+        "description": "Any vulnerability leading to database authentication bypass, privilege escalation and other access control bypass attacks are considered Critical and will be handled accordingly. Examples of security vulnerabilities that subvert access controls are:\n\n* Authentication bypass (tricking the server to authenticate as any user without valid credentials)\n* Vertical escalation of privilege (normal user gains administrative access)\n* Horizontal escalation of privilege (normal user can view/modify databases of another user)\n\nOur source code is on [GitHub](https://github.com/MariaDB)."
+      },
+      {
+        "asset_type": "SOURCE_CODE",
+        "identifier": "MariaDB Server & Connectors - Data corruption, exfiltration, disclosure",
+        "description": "Data corruption attacks that affect the integrity of the database without authentication or privileges to do that normally are considered with a base risk of Medium and depending on the severity of the corruption and affected data, it can be raised to Critical. Similarly, for data exfiltration attacks that affect the confidentiality of the database without authorization to do that normally and attacks leading to protected information disclosure without authentication or authorization are considered as Medium severity but can be elevated to Critical on a case by case basis.\n\nIn addition to all of the other classified attacks that lead to total control of the server and/or the underlying operating system, like a buffer overflow with remote code execution, other examples of security vulnerabilities that lead to corruption and leakages are: \n\n* overwriting configuration/random files in the filesystem via SQL routines\n* sensitive information leaks via unprotected log files\n* path traversal leading to protected information disclosure\n* information exposure via warning and error messages with superfluous verbosity\n* cryptographic algorithm implementation and design errors\n\nOur source code is on [GitHub](https://github.com/MariaDB)."
+      },
+      {
+        "asset_type": "SOURCE_CODE",
+        "identifier": "MariaDB Server & Connectors - Remote Code Execution",
+        "description": "Gaining unauthorized Remote Code Execution (RCE) on the server, slave (replication, federated) or client machine is considered a Critical vulnerability. Examples of security vulnerabilities that could potentially lead to such a vulnerability include:\n* Stack based buffer overflows\n* Heap based buffer overflows\n* Format string errors\n* Off by one errors\n* Integer overflows, divide-by-zero, precision errors that lead to controlable memory corruption\n* Dangling pointer, double free and use after free\n\nWhile this list doesn't aim to be exhaustive, you have to prove that your report does lead to Remote Code Execution via known exploitation techniques either directly or by chaining multiple, previously undisclosed/unfixed, vulnerabilities together. Otherwise they should be classified as denial of service (DoS).\n\nOur source code is on [GitHub](https://github.com/MariaDB)."
+      }
+    ]
   },
   "hackerone:chaturbate": {
     "hash": "9515c25c74077f62d47498189dc060f453633d70",
@@ -9345,6 +9393,15 @@
     "platform": "intigriti",
     "sc_targets": []
   },
+  "intigriti:veriffbugbounty": {
+    "hash": "4c7f7367934947612264d26dee7a27b759e7163e",
+    "bounty": true,
+    "source": false,
+    "name": "Veriff Bug Bounty",
+    "url": "https://www.intigriti.com/programs/veriff/veriffbugbounty/detail",
+    "platform": "intigriti",
+    "sc_targets": []
+  },
   "intigriti:VismaResponsibleDisclosure": {
     "hash": "1807efc8306fb573a16559552f3f06aa0690028c",
     "bounty": false,
@@ -13888,8 +13945,8 @@
   },
   "_meta": {
     "schema": 3,
-    "updated_at": "2026-09-16T04:29:03.362173+00:00",
-    "total": 1309,
+    "updated_at": "2026-09-16T09:28:49.724343+00:00",
+    "total": 1313,
     "qualifying": 75,
     "external": 384
   }
