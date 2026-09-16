@@ -941,7 +941,7 @@
     "hash": "83e3ff679c345f260bf23754ba3c43bf0d34ee60",
     "bounty": true,
     "source": true,
-    "name": "Circle BBP",
+    "name": "Circle",
     "url": "https://hackerone.com/circle-bbp",
     "platform": "hackerone",
     "sc_targets": [
@@ -2084,7 +2084,7 @@
     "hash": "53661878d74cf34ecffce0ff822da4355557eb54",
     "bounty": true,
     "source": true,
-    "name": "Arc BBP",
+    "name": "Arc",
     "url": "https://hackerone.com/arc-bbp",
     "platform": "hackerone",
     "sc_targets": [
@@ -8758,6 +8758,15 @@
     "platform": "intigriti",
     "sc_targets": []
   },
+  "intigriti:website": {
+    "hash": "0452261b3459e340a0b0c85060b962c8c40456e7",
+    "bounty": false,
+    "source": false,
+    "name": "Kinepolis Group",
+    "url": "https://www.intigriti.com/programs/kinepolis/website/detail",
+    "platform": "intigriti",
+    "sc_targets": []
+  },
   "intigriti:kiwavdp": {
     "hash": "e30195d368d82dd82f1d33366a01910d15b01cef",
     "bounty": false,
@@ -9399,6 +9408,15 @@
     "source": false,
     "name": "VTM GO",
     "url": "https://www.intigriti.com/programs/dpgm/vtmgo/detail",
+    "platform": "intigriti",
+    "sc_targets": []
+  },
+  "intigriti:arkanenetwork": {
+    "hash": "948bfaf22859eb66eca8b2211e3928f3dfc56428",
+    "bounty": true,
+    "source": false,
+    "name": "Venly",
+    "url": "https://www.intigriti.com/programs/arkane/arkanenetwork/detail",
     "platform": "intigriti",
     "sc_targets": []
   },
@@ -13945,8 +13963,8 @@
   },
   "_meta": {
     "schema": 3,
-    "updated_at": "2026-09-16T14:20:45.999524+00:00",
-    "total": 1313,
+    "updated_at": "2026-09-16T18:21:56.711278+00:00",
+    "total": 1315,
     "qualifying": 75,
     "external": 384
   }
