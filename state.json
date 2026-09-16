@@ -2534,7 +2534,7 @@
     "sc_targets": []
   },
   "hackerone:john-deere": {
-    "hash": "bd80e46a4779b7005e7a63fc2db803097de9e1d0",
+    "hash": "e2e93544d79c8bcf2a00e613d40461eab294d8a0",
     "bounty": false,
     "source": false,
     "name": "John Deere",
@@ -4144,7 +4144,7 @@
     ]
   },
   "hackerone:goldmansachs": {
-    "hash": "7ccc66c89c58e5617ddff375320cccc5b7937f49",
+    "hash": "a1ec13fb60e032e705721ee239981e1295614543",
     "bounty": true,
     "source": false,
     "name": "Goldman Sachs",
@@ -5581,7 +5581,7 @@
     "sc_targets": []
   },
   "bugcrowd:Atlassian-Built Apps": {
-    "hash": "08ced445e05776de4e17f5f418474f08a1795653",
+    "hash": "731b1b6d234c2ac272739163cbe1ed7263cfcb0f",
     "bounty": true,
     "source": false,
     "name": "Atlassian-Built Apps",
@@ -9408,15 +9408,6 @@
     "source": false,
     "name": "VTM GO",
     "url": "https://www.intigriti.com/programs/dpgm/vtmgo/detail",
-    "platform": "intigriti",
-    "sc_targets": []
-  },
-  "intigriti:arkanenetwork": {
-    "hash": "948bfaf22859eb66eca8b2211e3928f3dfc56428",
-    "bounty": true,
-    "source": false,
-    "name": "Venly",
-    "url": "https://www.intigriti.com/programs/arkane/arkanenetwork/detail",
     "platform": "intigriti",
     "sc_targets": []
   },
@@ -13963,8 +13954,8 @@
   },
   "_meta": {
     "schema": 3,
-    "updated_at": "2026-09-16T18:21:56.711278+00:00",
-    "total": 1315,
+    "updated_at": "2026-09-16T21:36:51.936810+00:00",
+    "total": 1314,
     "qualifying": 75,
     "external": 384
   }
