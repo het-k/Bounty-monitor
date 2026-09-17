@@ -8406,15 +8406,6 @@
     "platform": "intigriti",
     "sc_targets": []
   },
-  "intigriti:datacamp": {
-    "hash": "1b908318492a66ef7a81d5a6dd54437e62b84979",
-    "bounty": true,
-    "source": false,
-    "name": "DataCamp",
-    "url": "https://www.intigriti.com/programs/datacamp/datacamp/detail",
-    "platform": "intigriti",
-    "sc_targets": []
-  },
   "intigriti:demorgen": {
     "hash": "1fb858c8e00696ab8472ab3f1d1b40094bdd7139",
     "bounty": true,
@@ -9701,6 +9692,21 @@
     "url": "https://yeswehack.com/programs/dossier-medical-partag\u00e9-bug-bounty-program",
     "platform": "yeswehack",
     "sc_targets": []
+  },
+  "yeswehack:dovecot": {
+    "hash": "93c29d9c053c1503336b57eab5cbf23dcc72a7df",
+    "bounty": true,
+    "source": true,
+    "name": "Dovecot",
+    "url": "https://yeswehack.com/programs/dovecot",
+    "platform": "yeswehack",
+    "sc_targets": [
+      {
+        "asset_type": "open-source",
+        "identifier": "Dovecot IMAP Server and Pigeonhole SIEVE (see \"Software packages\" and \"Source code\")",
+        "description": ""
+      }
+    ]
   },
   "yeswehack:expressvpn---bug-bounty-program": {
     "hash": "e7fd7a2a42e1a2bc03bcbca2b71dc9cb9f262789",
@@ -13944,9 +13950,9 @@
   },
   "_meta": {
     "schema": 3,
-    "updated_at": "2026-09-17T05:13:11.366084+00:00",
+    "updated_at": "2026-09-17T10:20:17.668530+00:00",
     "total": 1313,
-    "qualifying": 75,
+    "qualifying": 76,
     "external": 383
   }
 }

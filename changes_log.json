@@ -1438,5 +1438,20 @@
         "description": "Only github.com/mongodb is considered to be eligible for bounty. Other MongoDB owned repositories are in scope, but not eligible for bounty. \nhttps://github.com/mongodb/kingfisher is out of scope and not eligible for bounty.\n"
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-17T10:20:17.679641+00:00",
+    "event": "new_program",
+    "platform": "yeswehack",
+    "handle": "dovecot",
+    "name": "Dovecot",
+    "url": "https://yeswehack.com/programs/dovecot",
+    "sc_targets": [
+      {
+        "asset_type": "open-source",
+        "identifier": "Dovecot IMAP Server and Pigeonhole SIEVE (see \"Software packages\" and \"Source code\")",
+        "description": ""
+      }
+    ]
   }
 ]
