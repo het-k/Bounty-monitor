@@ -1968,7 +1968,7 @@
     "sc_targets": []
   },
   "hackerone:mongodb": {
-    "hash": "e7f36758dd8493d52ebf6a896ad37c68bd0f8678",
+    "hash": "75931ec7a4eda218c24be7ec876fbf1dd9adbad7",
     "bounty": true,
     "source": true,
     "name": "MongoDB",
@@ -1993,7 +1993,7 @@
       {
         "asset_type": "OTHER",
         "identifier": "MongoDB Owned GitHub Repositories",
-        "description": "Only github.com/mongodb is eligible for bounty. Other MongoDB owned repositories are in scope, but not eligible for bounty. "
+        "description": "Only github.com/mongodb is considered to be eligible for bounty. Other MongoDB owned repositories are in scope, but not eligible for bounty. \nhttps://github.com/mongodb/kingfisher is out of scope and not eligible for bounty.\n"
       }
     ]
   },
@@ -13954,7 +13954,7 @@
   },
   "_meta": {
     "schema": 3,
-    "updated_at": "2026-09-16T21:36:51.936810+00:00",
+    "updated_at": "2026-09-17T00:16:51.488294+00:00",
     "total": 1314,
     "qualifying": 75,
     "external": 384
